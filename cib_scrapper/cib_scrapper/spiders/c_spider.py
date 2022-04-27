@@ -1,7 +1,11 @@
 import scrapy
 import os
 
-class QuotesSpider(scrapy.Spider):
+URL1 = os.environ['URL1']
+CIB_USER=os.environ['cib_user']
+CIB_PASS=os.environ['cib_pass']
+
+class C_spider(scrapy.Spider):
     name = "quotes"
 
     def start_requests(self):
