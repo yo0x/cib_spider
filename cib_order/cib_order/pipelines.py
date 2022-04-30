@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class CibScrapperPipeline:
+class CibOrderPipeline:
     def process_item(self, item, spider):
         return item
