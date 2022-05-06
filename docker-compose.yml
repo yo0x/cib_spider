@@ -16,6 +16,10 @@ services:
       - "8050:8050"
     networks:
       - scrapynet
+    environment:
+      URL1: ${URL1}
+      CIB_USERNAME: ${CIB_USERNAME}
+      CIB_PASS: ${CIB_PASS}
 
 networks:
   scrapynet:
