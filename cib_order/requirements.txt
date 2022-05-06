@@ -38,3 +38,4 @@ w3lib==1.22.0
 zope.interface==5.4.0
 ipython==8.0.1
 scrapy-splash==0.8.0
+python-dotenv==0.20.0

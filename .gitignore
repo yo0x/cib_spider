@@ -1,1 +1,4 @@
 .env
+cib_order/cib_order/spiders/.env
+cib_order/cib_order/spiders/__pycache__/
+cib_order/cib_order/__pycache__/

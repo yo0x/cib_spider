@@ -1,0 +1,22 @@
+version: '3.2'
+
+services:
+  scrapy-py:
+    build:
+      context: cib_order/
+    networks:
+      - scrapynet
+    depends_on:
+      - splash-scrapy
+
+  splash-scrapy:
+    build:
+      context: splash-scrapy/
+    ports:
+      - "8050:8050"
+    networks:
+      - scrapynet
+
+networks:
+  scrapynet:
+    driver: bridge
