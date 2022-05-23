@@ -1,1 +1,1 @@
-time scrapy crawl order_cib
+scrapy crawl order_cib
